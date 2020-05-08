@@ -61,6 +61,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -129,7 +130,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BuildCanary\BuildCanary.csproj">
-      <Project>{CC383BA1-95D8-4394-96C3-464B37BF7DF2}</Project>
+      <Project>{AE6A1B9C-4884-4D0A-99F8-4BAF66F48BE5}</Project>
       <Name>BuildCanary</Name>
     </ProjectReference>
   </ItemGroup>
